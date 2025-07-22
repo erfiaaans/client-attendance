@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import DashboardAdmin from "../components/admin/DashboardAdmin";
-import HistoryAdmin from "../components/admin/HistoryAdmin";
-import ProfileAdmin from "../components/admin/ProfileAdmin";
-import ManageUsers from "../components/admin/ManageUsers";
-import Office from "../components/admin/Office";
+import DashboardAdmin from "../pages/admin/DashboardAdmin";
+import HistoryAdmin from "../pages/admin/HistoryAdmin";
+import ProfileAdmin from "../pages/admin/ProfileAdmin";
+import ManageUsers from "../pages/admin/ManageUsers";
+import Office from "../pages/admin/Office";
 
 const Admin = () => (
     <Routes>

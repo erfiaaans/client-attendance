@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import DashboardUser from "../components/user/DashboardUser";
-import HistoryUser from "../components/user/HistoryUser";
-import ProfileUser from "../components/user/ProfileUser";
-import ClockIn from "../components/user/ClockIn";
-import ClockOut from "../components/user/ClockOut";
+import DashboardUser from "../pages/user/DashboardUser";
+import HistoryUser from "../pages/user/HistoryUser";
+import ProfileUser from "../pages/user/ProfileUser";
+import ClockIn from "../pages/user/ClockIn";
+import ClockOut from "../pages/user/ClockOut";
 
 const User = () => (
     <Routes>
